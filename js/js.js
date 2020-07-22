@@ -1,6 +1,6 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const text = urlParams.get("text") === null ? "blank" : urlParams.get("text") ;
+const text = urlParams.get("text") === null ? "blank" : urlParams.get("text");
 
 window.onload = function () {
   const span = document.querySelector("span");
@@ -11,9 +11,9 @@ window.onload = function () {
       matches[index].textContent = text;
       if (span) {
         span.textContent = text
-                            .replace(/\s/g , "-")
-                            .normalize("NFKD")
-                            .replace(/[\u0300-\u036F]/g, "");
+          .replace(/\s/g, "-")
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036F]/g, "");
       }
     }
   }
