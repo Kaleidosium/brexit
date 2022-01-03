@@ -20,4 +20,4 @@ You can even do sentences with spaces in it.
 
 ## License
 
-MIT © Dania Rifki.
+Unlicense.
