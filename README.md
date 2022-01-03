@@ -18,8 +18,6 @@ You can even do sentences with spaces in it.
 
 ![Two](./assets/2.png)
 
-You can also generate a screenshot from this website via one of @Matojeje's [Discord bot](https://github.com/Matojeje/mato-bot) commands.
-
 ## License
 
 MIT © Dania Rifki.
